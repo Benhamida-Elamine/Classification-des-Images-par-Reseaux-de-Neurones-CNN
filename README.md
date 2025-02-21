@@ -1,1 +1,1 @@
-# Classification-d-Images-par-R-seaux-de-Neurones-CNN
+# Classification-des-Images-par-Reseaux-de-Neurones-CNN
