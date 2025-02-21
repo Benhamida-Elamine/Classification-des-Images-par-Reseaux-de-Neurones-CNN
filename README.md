@@ -15,12 +15,12 @@ Le projet est organisé en trois dossiers, chacun contenant un modèle différen
 3. **Modele 3** : Contient le troisième modèle CNN (SimpleCNN) et ses prédictions.
 
 Chaque dossier contient :
-- Le script Python du modèle (`model.py`).
-- Les prédictions du modèle sur les données de test (`predictions.csv`).
+- Le script Python du modèle (`model.ipynb`).
+- Les prédictions du modèle sur les données de test (`pred.csv`).
 
 ## Description des modèles
 
-### 1. Modèle MyNet1
+### 1. Modèle 1
 - **Architecture** : 
   - Deux couches de convolution suivies de max-pooling.
   - Couches de dropout pour éviter le surajustement.
@@ -28,9 +28,9 @@ Chaque dossier contient :
   - Couches denses avec 120 et 84 neurones.
 - **Fonction de perte** : `CrossEntropyLoss`.
 - **Optimiseur** : Adam.
-- **Précision sur le test** : **98,83%**.
+- **Précision sur le test** : **95.82%**.
 
-### 2. Modèle MyNet
+### 2. Modèle 2
 - **Architecture** :
   - Deux couches de convolution avec normalisation par lots.
   - Couches de dropout (50%) pour la régularisation.
@@ -39,7 +39,7 @@ Chaque dossier contient :
 - **Optimiseur** : Adam.
 - **Précision sur le test** : **96,97%**.
 
-### 3. Modèle SimpleCNN
+### 3. Modèle 3
 - **Architecture** :
   - Une couche de convolution avec padding pour conserver la taille de l'image.
   - Couches entièrement connectées avec 256 et 2 neurones.
@@ -61,5 +61,4 @@ Les trois modèles ont été comparés sur un ensemble de 4993 images. Les résu
 
 1. **Cloner le dépôt** :
    ```bash
-   git clone https://github.com/votre-utilisateur/votre-repo.git
-   cd votre-repo
+  https://github.com/Benhamida-Elamine/Classification-des-Images-par-Reseaux-de-Neurones-CNN.git
